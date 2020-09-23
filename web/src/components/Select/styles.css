@@ -1,10 +1,9 @@
-
 .select-block {
   position: relative;
 }
 
-.select-block  + .select-block {
- margin-top: 1.4rem; 
+.select-block + .select-block {
+  margin-top: 1.4rem;
 }
 
 .select-block label {
@@ -24,7 +23,7 @@
 }
 
 .select-block:focus-within::after {
-  width: calc(100% -3.2rem);
+  width: calc(100% - 3.2rem);
   height: 2px;
   content: '';
   background: var(--color-primary-light);

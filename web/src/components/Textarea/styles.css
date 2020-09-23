@@ -1,10 +1,9 @@
-
 .textarea-block {
   position: relative;
 }
 
-.textarea-block  + .textarea-block {
- margin-top: 1.4rem; 
+.textarea-block + .textarea-block {
+  margin-top: 1.4rem;
 }
 
 .textarea-block label {
@@ -26,7 +25,7 @@
 }
 
 .textarea-block:focus-within::after {
-  width: calc(100% -3.2rem);
+  width: calc(100% - 3.2rem);
   height: 2px;
   content: '';
   background: var(--color-primary-light);

@@ -1,10 +1,9 @@
-
 .input-block {
   position: relative;
 }
 
-.input-block  + .input-block {
- margin-top: 1.4rem; 
+.input-block + .input-block {
+  margin-top: 1.4rem;
 }
 
 .input-block label {
@@ -24,7 +23,7 @@
 }
 
 .input-block:focus-within::after {
-  width: calc(100% -3.2rem);
+  width: calc(100% - 3.2rem);
   height: 2px;
   content: '';
   background: var(--color-primary-light);
